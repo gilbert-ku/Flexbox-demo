@@ -1,6 +1,4 @@
-*{
-    /*margin: 10px;*/
-}
+
 html {
     margin: 0;
     padding: 0;
@@ -31,11 +29,11 @@ html {
   }
   
   header{
-    box-sizing: border-box;
     display: flex;
     height: 200px;
     background-color: rgb(212, 214, 216);
     overflow: scroll;
+    box-sizing: border-box;
   }
   body {
     margin: 50px auto 50px auto;
@@ -45,14 +43,14 @@ html {
     justify-content: space-between;
   }
   main {
-    background-color: rgb(212, 214, 216);
+    background-color: rgba(232, 235, 239, 0.3);
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   footer{
     background-color: rgb(148, 252, 242);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
   }
